@@ -47,3 +47,26 @@ body {
 
     border-radius:20px;
 }
+
+#msg-cointainer {
+    height: 30vmin;
+    
+}
+
+#msg {
+    color: black;
+    font-size: 5vmin;
+}
+
+.hide {
+    display: none;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem; 
+    background-color: brown;
+    border-radius:1rem;;
+    border:none;
+
+}
