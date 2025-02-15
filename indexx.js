@@ -17,6 +17,18 @@ const winpatteerns =[
 boxes.forEach((box) => {
     box.addEventListener("click", () => {
         console.log("box was being clicked by you");
-        box.innertext="X";
+        if (trun) {
+            box.innerText = "X";
+            trun= false;
+        }else{
+            box.innerText = "O";
+            trun = true;
+        }
+        box.disabled = true;
+
     });
 });
+
+const checkwinner = () => {
+    
+}
