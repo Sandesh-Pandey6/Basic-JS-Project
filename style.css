@@ -1,0 +1,48 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body {
+    background-color: aquamarine;
+    text-align: center;
+    text-decoration: solid;
+    
+}
+
+.cointainer {
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+
+}
+.basic{
+    height: 60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1vmin;
+   
+}
+
+.box{
+    height: 17vmin;
+    width: 17vmin;
+    border:none;
+    border-radius:20px;
+    font-size:50px; 
+    color: blueviolet;
+    
+}
+#reset{
+    height: 40px;
+    width: 100px;
+    color: black;
+    background-color: chocolate;
+    border:none;
+
+    border-radius:20px;
+}
