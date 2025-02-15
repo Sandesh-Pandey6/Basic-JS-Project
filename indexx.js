@@ -30,5 +30,6 @@ boxes.forEach((box) => {
 });
 
 const checkwinner = () => {
+    for pos1val = boxes{pattern}
     
 }
